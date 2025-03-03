@@ -18,6 +18,11 @@ namespace Compiler.Model
             get => _fileName;
             set => _fileName = value;
         }
+        public string FilePath
+        {
+            get => _filePath;
+            set => _filePath = value;
+        }
         public DocumentModel() { }
     }
 }
